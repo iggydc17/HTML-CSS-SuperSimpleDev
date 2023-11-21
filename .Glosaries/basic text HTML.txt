@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head></head> head, invisible for user
+<meta charset="UTF-8">  used to provide metadata about an HTML document.
+<meta name="author" content="Dave Gray"> used to add a name and a descirption of the html template.
+<title></title> title of the html template.
+<body></body> body, visible for user
+<p></p> paragraph 
+<h1></h1> heading
+<hr> horizontal rule
+<br> breaking space
+br*150
+<em></em> emphasize text
+<strong></strong> strong text
+<!-- Invisible comment--> comment
+<abbr tittle="Kansas">KS</abbr> abbreviation 
+<address></address> address
+<link rel="" href="" type=""> link for links or photos.
+<ol><li></li></ol> numeric order list element
+<ul><li></li></ul> unordered list (dots list)
+<li></li> list item
+<dl><dt></dt></dl> description list 
+<dt></dt> definition term
+<dd></dd> definition description
+<a></a> anchor tag
+href:"" hypertext reference
+<a href="https://www.google.com/" target="_blank"></a> link to a web site
+<a href="/"></a> back to home page
+<a href="about.html"></a> link to a template
+<a href="#html">Learning HTML</a> link to a id section
+<a href="html5.png" download></a> download a file
+<a href="tel:+1234567890"></a> link to phone call
+<section></section> group related content together
+<section id="html"></section> call a section
+<article></article> individual pieces of content
+<nav></nav> navigation menu
+<img src="" alt="" title="" widht="" height="" loading="" > image
+src="" URL source image
+alt="" alternative text for image
+title="" title for the image
+widht="" widht imagen
+height="" height image
+loading=""
+loading="lazy"
+loading=""
+
+&nbsp; no breaking space
+&lt; less than
+&gt; greater than
+&copy; copyright simbol.
+
+
+
+Ctrl+U view the HTML code of the web page
+Ctrl+Shift+I inspection
+Ctrl+S to save changes
+alt+Shift+downArrow to copy and paste the selected text
+Ctrl+D to select te alredy selected lines
+Shift+Alt+A comment the selcted text

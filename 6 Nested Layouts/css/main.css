@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-container,
+.profile-containers,
+.videos-container {
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 0px 10px gray;
+    margin: 20px;
+    padding: 10;
+}
+
+.profile-container {
+    height: 100px;
+}
+.first-column,
+.second-column,
+.third-column {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-right: -5px;
+}
+
+.profile-name {
+    color: black;
+    font-weight: bold;
+}
+
+.info {
+    color: gray;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-left: 150px;
+}
+
+.follow-button:hover {
+    opacity: 0.8;
+}
+
+.follow-button:active {
+    opacity: 0.4;
+}
+
+.second-column {
+    line-height: 7px;
+}
+
+
+/*Second Exercise*/
+
+.profile-containers {
+    height: auto;
+}
+
+.profiles .first-column,
+.profiles .second-column,
+.profiles .third-column {
+    display: inline-block;
+}
+
+hr {
+    color: #ccc;
+}
+
+/*Third Exercise*/
+
+.videos-container {
+    padding: 12px;
+    max-width: 600px;
+}
+
+.youtube-prev-pic {
+    width: 250px;
+    height: 160px;
+    object-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.youtube-prev-pic:hover {
+    cursor: pointer;
+}
+
+.video-name {
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    margin-top: 5px
+}
+
+.video-name:hover {
+    cursor: pointer;
+}
+
+.channel-name,
+.ytb-stats {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+    line-height: 10px;
+}
+
+.channel-name:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.video-row,
+.info-row {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+/*Four Exercise*/
+
+.profile-box {
+    display: inline-block;
+    max-width: 210px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 1px 0px 10px gray;
+    margin: 10px;
+    border-radius: 1px;
+}
+
+.profile-photo-pic {
+    width: 210px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.profile-name1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.profile-name1:hover {
+    cursor: pointer;
+}
+
+.mutual-friends {
+    margin-left: 8px;
+}
+
+.mutual-friend-pic,
+.mutual-friends-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mutual-friends-text {
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+}
+
+.mutual-friends-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.add-button:active {
+    opacity: 0.4;
+}
+
+.mutual-friend-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+Dudas HTML & CSS
+
+HTML:
+
+<nav>
+<div>
+
+CSS:
+
+diference beetween id and class.
+
+Units em, rem, %
+

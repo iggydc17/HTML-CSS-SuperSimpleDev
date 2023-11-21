@@ -1,0 +1,115 @@
+.cat1 {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.cat2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cat3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-bar1 {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.search-bar2 {
+    width: 500px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin: 8px;
+}
+
+.search-bar3 {
+    border: 2px solid rgb(100, 100, 100);
+    width: 400px;
+    height: 26px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: -8px;
+}
+
+.join-cont {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    width: 400px;
+    padding: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+    transition: opacity 0.15s;
+}
+
+.join-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.join-button:active {
+    opacity: 0.4;
+}
+
+.profile-cat {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.search-bar4 {
+    font-size: 16px;
+    vertical-align: middle;
+    width: 250px;
+    padding: 16px;
+    border: none;
+    font-size: 18px;
+}
+
+.tweet-button {
+    background-color: rgb(15, 157, 201);
+    color: white;
+    border: none;
+    padding: 16px 18px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.tweet-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.tweet-button:active {
+    opacity: 0.4;
+}

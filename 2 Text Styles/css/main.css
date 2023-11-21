@@ -1,0 +1,209 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.deals {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.sales {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+}
+
+.course {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.level {
+    font-family: verdana;
+    color: rgb(100, 100, 100);
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+
+.course-contain {
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+button {
+    font-family: verdana;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tittle {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apple-content {
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apple-link {
+    font-family: arial;
+    text-align: center;
+    color: rgb(58, 108, 199);
+}
+
+.apple-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.apple-link:active {
+    color: brown;
+}
+
+.new {
+    color: rgb(255, 174, 0);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.macbook {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.macbook-content {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.price {    
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.buy-button {
+    background-color: rgb(0, 113, 227);  
+    color: white;
+    padding: 7px 15px; 
+    border-radius: 30px;
+    display: flexbox;
+    font-weight: bold;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.buy-button:hover {
+    opacity: 0.8;
+}
+
+.buy-button:active {
+    opacity: 0.5;
+}
+
+
+.price-action {
+    font-family: arial;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.currency {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-left: 10px;
+}
+
+
+.win {
+    font-family: arial;
+    color: rgb(24, 168, 56);
+    margin-bottom: 8px;
+}
+
+.loss {
+    font-family: arial;
+    color: rgb(235, 39, 39);
+}
+
+.time {
+    font-family: arial;
+    color: rgb(100, 100, 100);
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.user {
+    font-family: arial;
+    margin-bottom: 8px;
+}
+
+.user-title {
+    color: gray;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.user-content {
+    font-family: arial;
+    font-size: 18px;
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+.second-content {
+    font-family: arial;
+    font-size: 18px;
+    margin-bottom: 8px;
+    width: 700px;
+}
+
+.user-tag {
+    color: blue;
+    cursor: pointer;
+}
+
+.user-tag:hover {
+    text-decoration: underline;
+}
+
+.user-tag:active {
+    color: brown;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-title {
+    margin-top: 0;
+    width: 280px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video-title:hover {
+    cursor: pointer;
+}
+
+.video-preview {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.channel-picture {
+    display: inline-block;
+    width: 50px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.second-row {
+    margin-top: 12px;
+}
+
+.video-img {
+    width: 350px;
+    height: 197px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.video-author,
+.video-stats {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 12px;
+}
+
+.video-info {
+    margin-left: 5px;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+/*Second Exercise*/
+
+.video-preview1 {
+    display: inline-block;
+    margin: 12px;
+}
+
+.video-author:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
