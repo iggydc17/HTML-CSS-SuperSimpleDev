@@ -1,0 +1,40 @@
+body {
+    height: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+
+.overlay-cover {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.modal-title {
+    margin-bottom: 12px;
+}

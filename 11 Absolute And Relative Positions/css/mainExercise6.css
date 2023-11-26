@@ -1,0 +1,56 @@
+body {
+    margin-bottom: 3000px;
+}
+
+.shirt-box {
+    position: relative;
+    display: inline-block;
+}
+
+.shirt-pic {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    font-family: Arial;
+}
+
+.overlay-cover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 70px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+    transition: opacity 0.15s;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.add-button:active {
+    opacity: 0.4;
+}
